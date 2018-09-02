@@ -1,3 +1,5 @@
+$(document).ready(function(){  
+
 //Calculate Tip
 function calculateTip() {
   var billAmt = document.getElementById("billamt").value;
@@ -38,3 +40,4 @@ document.getElementById("calculate").onclick = function() {
   calculateTip();
 
 };
+});
